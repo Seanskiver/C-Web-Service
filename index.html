@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Simple Web Service</title>
+	<!-- BOOTSTRAP -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<style>
+	.rslt {
+		display: inline-block;
+	}
+</style>
+<body>
+	<div class="container">
+		<h3>Here's a simple web service</h3>
+		<p>This ASP.NET web service adds two integers, and uses AJAX to retrieve the sum. <br> Try entering an integer into each box and hitting submit</p>
+		<form id="ajaxForm">
+			<div class="col-lg-3">
+				<div class="form-group">
+					<label for="first">First Integer</label><br>
+					<input type="text" id="first">
+
+				</div>
+				
+				<div class="form-group"> 
+					<label for="second">Second Integer</label><br>
+					<input type="text" id="second">
+				</div>				
+
+				<input type="submit" id="submit" class="btn btn-success">
+			</div>
+
+			<div class="col-lg-4">
+				<h1 class="rslt">Result: </h1>&nbsp;<h1 id="result" class="rslt"></h1>
+			</div>
+		</form>		
+	</div>
+
+	
+	<!-- JQUERY -->
+	<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+	<!-- AJAX SCRIPT -->
+	<script src="ajax.js"></script>
+</body>
+</html>

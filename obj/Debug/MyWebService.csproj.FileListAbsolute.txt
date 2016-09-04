@@ -1,0 +1,6 @@
+c:\users\skiversm\documents\visual studio 2015\Projects\MyWebService\MyWebService\bin\MyWebService.dll.config
+c:\users\skiversm\documents\visual studio 2015\Projects\MyWebService\MyWebService\bin\MyWebService.dll
+c:\users\skiversm\documents\visual studio 2015\Projects\MyWebService\MyWebService\bin\MyWebService.pdb
+c:\users\skiversm\documents\visual studio 2015\Projects\MyWebService\MyWebService\obj\Debug\MyWebService.csprojResolveAssemblyReference.cache
+c:\users\skiversm\documents\visual studio 2015\Projects\MyWebService\MyWebService\obj\Debug\MyWebService.dll
+c:\users\skiversm\documents\visual studio 2015\Projects\MyWebService\MyWebService\obj\Debug\MyWebService.pdb
